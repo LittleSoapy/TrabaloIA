@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry path="src" kind="src"/>
-	<classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true" kind="con"/>
-	<classpathentry path="lib/poupador.jar" kind="lib"/>
-	<classpathentry path="classes" kind="output"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/poupador.jar"/>
+	<classpathentry kind="lib" path="lib/gdx-backend-lwjgl-natives.jar"/>
+	<classpathentry kind="lib" path="lib/gdx-backend-lwjgl.jar"/>
+	<classpathentry kind="lib" path="lib/gdx-natives.jar"/>
+	<classpathentry kind="lib" path="lib/gdx.jar" sourcepath="lib/gdx-sources.jar"/>
+	<classpathentry kind="output" path="classes"/>
 </classpath>
